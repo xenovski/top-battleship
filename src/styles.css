@@ -11,13 +11,66 @@ body {
   height: 100vh;
 }
 
+.containers {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.ships-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.destroyer-ship {
+  width: 40px;
+  height: 20px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.cruiser-ship {
+  width: 60px;
+  height: 20px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.submarine-ship {
+  width: 60px;
+  height: 20px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.battleship-ship {
+  width: 80px;
+  height: 20px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.carrier-ship {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+  border: 2px solid black;
+}
+
 .boards-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 250px;
   grid-auto-flow: column;
-  width: 50%;
-  height: 50%;
+  /* width: 50%;
+  height: 50%; */
   place-items: center;
 }
 
@@ -29,6 +82,7 @@ body {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 10px;
 }
 
 .block {

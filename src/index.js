@@ -29,6 +29,26 @@ function createUIBoard(name) {
 createUIBoard('player');
 createUIBoard('computer');
 
+function createUIShips() {
+    const shipsContainer = document.querySelector('.ships-container');
+    const destroyerShip = document.createElement('div');
+    destroyerShip.classList.add('destroyer-ship');
+    const cruiserShip = document.createElement('div');
+    cruiserShip.classList.add('cruiser-ship');
+    const submarineShip = document.createElement('div');
+    submarineShip.classList.add('submarine-ship');
+    const battleshipShip = document.createElement('div');
+    battleshipShip.classList.add('battleship-ship');
+    const carrierShip = document.createElement('div');
+    carrierShip.classList.add('carrier-ship');
+    shipsContainer.appendChild(destroyerShip);
+    shipsContainer.appendChild(cruiserShip);
+    shipsContainer.appendChild(submarineShip);
+    shipsContainer.appendChild(battleshipShip);
+    shipsContainer.appendChild(carrierShip);
+}
+
+createUIShips();
 
 const playerGameboard = new GameBoard('player');
 const computerGameboard = new GameBoard('computer');
