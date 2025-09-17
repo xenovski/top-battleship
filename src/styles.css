@@ -34,6 +34,7 @@ body {
   height: 20px;
   background-color: blue;
   border: 2px solid black;
+  box-sizing: border-box;
 }
 
 .cruiser-ship {
@@ -41,6 +42,7 @@ body {
   height: 20px;
   background-color: blue;
   border: 2px solid black;
+  box-sizing: border-box;
 }
 
 .submarine-ship {
@@ -48,6 +50,7 @@ body {
   height: 20px;
   background-color: blue;
   border: 2px solid black;
+  box-sizing: border-box;
 }
 
 .battleship-ship {
@@ -55,6 +58,7 @@ body {
   height: 20px;
   background-color: blue;
   border: 2px solid black;
+  box-sizing: border-box;
 }
 
 .carrier-ship {
@@ -62,6 +66,7 @@ body {
   height: 20px;
   background-color: blue;
   border: 2px solid black;
+  box-sizing: border-box;
 }
 
 .boards-container {
